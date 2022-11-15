@@ -1,0 +1,215 @@
+ \documentclass[journal,12pt,twocolumn]{article}
+\usepackage{blindtext}
+\usepackage{graphicx}
+\graphicspath{{./figs/}}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{watermark}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+
+\let\vec\mathbf
+\thiswatermark{\centering \put(-20,-55){\includegraphics[scale=0.5]{iith.png}} }
+\begin{document}
+\title
+{Matrix-Circle Assignment}
+\author{Mohammad Imran}
+
+\maketitle
+\tableofcontents
+\bigskip
+\section{Problem Statement}
+\ locus of the image of the point (2,3) in the line (2x-3y+4)+K
+(x-2y+3)=0,K $\epsilon$ R,is a ?\\
+
+
+\section{Construction}
+
+\begin{figure}[h]
+    \centering
+\includegraphics[width=\columnwidth]{figure1.pdf}
+    \caption{locus of the given point}
+    \label{fig:my_label}
+\end{figure}
+\vspace{2cm}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|c|c|}
+       \hline
+       \textbf{Symbol}&\textbf{Value}&\textbf{Description}  \\
+       \hline
+	    $\vec{P}$ & $\myvec{
+		    x\\
+		    y}$
+	    & image of given point\\
+        \hline
+	    $\vec{Q}$ & $\myvec{1\\2}$
+ & Point of Intersection\\
+        \hline
+	    $\vec{R}$ & $\myvec{
+  2\\
+  3}$
+ & Given Point \\
+        \hline
+    \end{tabular}
+    \caption{Parameters}
+    \label{tab:my_label}
+\end{table}
+
+\section{Solution}
+Given that resultant locus of the image of the point(2,3) in the line 2x-3y+4+K(x-2y+3)=0 here the K is a rational number assuming the locus of image of point (2,3) is P)\\
+
+
+\textbf{Given family of the line:}
+\vspace{0.3cm}
+ \begin{center}
+ (2x-3y+4)+K(x-2y+3)=0
+ 
+ \end{center}
+\vspace{0.3cm}
+ 
+From the above given family of line we, can write as follows
+\begin{equation}
+\myvec{2&-3}\vec{X}=-4\label{eq-1}
+\end{equation}
+\begin{equation}
+\myvec{1 & -2}\vec{X}=-3\label{eq-2}
+\end{equation}
+
+The above equation can be written in matrix form as follows
+ 
+\begin{equation}
+	\myvec{
+  2  & -3\\
+  1 & -2}\vec{X}=
+  \myvec{
+  -4 \\ -3}
+  \label{eq-3}
+\end{equation}
+The Augmented can be expressed as 
+\begin{equation}
+  \myvec{
+ 2 & -3 &-4\\ 
+ 1 & -2 & -3}\label{eq-4}
+\end{equation} 
+Through,pivoting the Augmented matrix will become as 
+\\
+\begin{equation}
+     \myvec{
+ 1 & 0\\ 
+ 0 & 1} \myvec{1 \\ 2} \label{eq-5}
+ \end{equation}
+On solving the above equation the cross point of the given family of line equation and we get point $\vec{Q}$
+\begin{equation}
+	\vec{Q}
+  = \myvec{1\\
+  2}   \label{eq-6}
+\end{equation}
+Given point $\vec{R}$=(2,3) and asumming its locus of image as point $\vec{P}$=(x,y) and we have obtain the point$\vec{Q}$=(1,2) \\
+
+
+we, know that locus of the image of the point is equidistance from point Q 
+thus,
+\vspace{0.5cm}
+\\ 
+ \textbf{
+Distance between point PQ and QR is same}\\
+\begin{equation}
+\vec{PQ}=\vec{QR}\label{eq-7}
+\end{equation}
+
+
+ \begin{equation}
+ Distance between \vec{QR}=||\vec{Q}-\vec{R}||
+\end{equation} 
+ \begin{equation}
+  \vec{QR}=||\myvec{1 
+\\ 2}-\myvec{2 \\ 3}||
+\end{equation} 
+by, solving we get
+\begin{equation}
+ distance between \vec{QR}=\sqrt{2}
+\end{equation}
+ 
+From eq7 $\vec{PQ}=\sqrt{2}$
+
+ \begin{equation}
+ Distance between \vec{PQ}=||\vec{P}-\vec{Q}||
+\end{equation} 
+\begin{equation}
+  ||\vec{P}-\vec{Q}||=\sqrt{2}
+\end{equation} 
+\begin{equation}
+  ||\vec{P-Q}||^2=2
+\end{equation} 
+
+ by solving we get,
+\begin{equation}
+  {||\vec{P}||^2-2\vec{Q}^{\top}\vec{P}+||\vec{Q}||^2 
+}=2
+\end{equation} 
+
+%the above equation resembels as,
+%\begin{equation}
+ % \myvec{a^{2}+b^{2}-2ga-2tb-c 
+%}=0
+%\end{equation} 
+ %as the above equation is derived from equation of the circle,
+%\begin{equation}
+ % \myvec{
+%{\vec{x^{\top}V x} + 2\vec{u^{\top}x}} + f}=0
+%\end{equation} 
+by solving we get equation of cirlce as,\\
+ \begin{equation}
+{{\vec{P^{\top}P} - 2\vec{Q^{\top}\vec{P}}+3}}=0 
+ \end{equation}\\
+ \begin{equation}
+ {{\vec{X^{\top}X} - 2\myvec{-1 & -2}^{\top}\vec{X}}+3}=0
+ \end{equation}
+hence The Resultant is a \textbf{circle} \\
+
+\section{finding the center of circle and radius}
+ 
+ \begin{equation}
+  center=-u=\myvec{1 \\ 2}
+\end{equation} 
+
+\begin{center}
+radius of the circle=$\sqrt{2}$
+\end{center}
+\section{verfication of image of point with respect to line }
+taken a line
+\begin{equation}
+ \vec{n}^{\top}\vec{X}=C
+ \end{equation}\\
+\begin{equation}
+\myvec{1 & -2}\vec{X}=-3\label{eq-2}
+\end{equation}
+
+we have a point P =$\myvec{2 \\ 3}$
+
+by using the formula image of point with respect to line
+\begin{equation}
+\vec{R}=\vec{P}+2\frac{C-\vec{n}^{\top}\vec{P}}{||\vec{n}||^2}\vec{n}
+\end{equation}
+by solving above equation we the image of point 
+$\vec{R}=\myvec{\frac{12}{5}\\\frac{11}{5}}$
+\section{Software}
+Download the following code using,
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|c|}
+    \hline \\
+         https://github.com/imran111888/fwc2/blob//matrix/line/20assignment/codes/1 \\
+         \\
+\hline
+    \end{tabular}
+\end{table}
+\\
+and execute the code by using command
+\begin{center}
+\textbf{Python3  line.py}\\
+\end{center}
+
+\section{Conclusion}
+We found the locus of the image of point(2,3) in a line is a circle.
+
+\end{document}

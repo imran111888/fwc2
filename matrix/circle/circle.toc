@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}Problem Statement}{1}{}%
+\contentsline {section}{\numberline {2}Construction}{1}{}%
+\contentsline {section}{\numberline {3}Solution}{1}{}%
+\contentsline {section}{\numberline {4}finding the center of circle and radius}{3}{}%
+\contentsline {section}{\numberline {5}verfication of image of point with respect to line }{3}{}%
+\contentsline {section}{\numberline {6}Software}{3}{}%
+\contentsline {section}{\numberline {7}Conclusion}{3}{}%
