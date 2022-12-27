@@ -1,0 +1,59 @@
+\documentclass[journal,12pt,twocolumn]{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\newcommand*{\rom}[1]
+
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage{watermark}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{listings}
+\usepackage{float}
+\title{PROBABILITY ASSIGNMENT}
+\author{MOHAMMAD IMRAN}
+\thiswatermark{\centering \put(-50,-105){\includegraphics[scale=0.5]{iith.png}} }
+\begin{document}
+\maketitle
+\tableofcontents
+\bigskip
+
+\section{problem }
+
+Let A and B be independent events with P(A)=0.3 and P(B)=0.4 find \\
+(i).P(AB)\\
+     (ii).P(A+B) \\
+(iii).P(A $\mid$ B)   \\
+       (iv).P(B $\mid$ A)
+\section{solution }  
+
+
+Since A and B are independent events, we have \\
+
+\begin{center}
+(i).P(AB)=P(A) P(B)\\
+ \vspace{0.5cm}
+P(AB)=0.3 $\times$ 0.4\\
+ \vspace{0.5cm}
+P(AB)=0.12
+\end{center}
+
+\begin{center}
+(ii). P(A+B)=P(A)+P(B)-P(AB)\\
+\vspace{0.5cm}
+P(A+B)=0.3+0.4-0.12=0.58
+\end{center}
+
+\begin{center}
+(iii).P(A $\mid$ B)=$\frac{0.12}{0.40}$=0.3
+\end{center}
+
+\begin{center}
+(iv).P(B $\mid$ A)=$\frac{P(B+A)}{P(A)}=\frac{0.12}{0.30}=0.4$
+\end{center}
+ 
+\end{document}
+
