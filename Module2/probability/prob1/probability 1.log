@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  29 DEC 2022 10:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  29 DEC 2022 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -568,8 +568,8 @@ Package rerunfilecheck Info: File `"probability 1".out' has not changed.
 (rerunfilecheck)             Checksum: E70D2CECDD9FAEE1835466594F2B0825;177.
  ) 
 Here is how much of TeX's memory you used:
- 12168 strings out of 480204
- 191841 string characters out of 5895010
+ 12169 strings out of 480204
+ 191853 string characters out of 5895010
  510042 words of memory out of 5000000
  29963 multiletter control sequences out of 15000+600000
  474938 words of font info for 48 fonts, out of 8000000 for 9000
@@ -580,10 +580,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "probability 1.pdf" (1 page, 60452 bytes).
+Output written on "probability 1.pdf" (1 page, 60483 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
+ 50 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 5 named destinations out of 1000 (max. 500000)
  22 words of extra memory for PDF output out of 10000 (max. 10000000)
 
