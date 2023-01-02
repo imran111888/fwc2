@@ -13,6 +13,7 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{listings}
 \usepackage{float}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \title{PROBABILITY ASSIGNMENT}
 \author{MOHAMMAD IMRAN}
 \thiswatermark{\centering \put(-50,-105){\includegraphics[scale=0.5]{iith.png}} }
@@ -22,13 +23,13 @@
 
 \section{problem }
 
-Let A and B be independent events with $\Pr{(A)}=0.3$ and $\Pr{(B)}=0.4$ Find 
+Let A and B be independent events with $\pr{A}=0.3$ and $\pr{B}=0.4$ Find 
 \begin{enumerate}
 
-\item$\Pr{(AB)}$
-\item$\Pr{(A+B)}$ 
-\item$\Pr{(A | B)}$   
-\item$\Pr{(B | A)}$
+\item$\pr{AB}$
+\item$\pr{A+B}$ 
+\item$\pr{A | B}$   
+\item$\pr{B | A}$
        \end{enumerate}
 \section{solution }  
 
@@ -38,23 +39,23 @@ Since A and B are independent events, we have
 \begin{enumerate}
 
 \item $\begin{aligned}
- \Pr{(AB)}&=\Pr{(A)} \Pr{(B)}&\\
-\Pr{(AB)}&=0.3 \times 0.4&\\
-\Pr{(AB)}&=0.12&
+ \pr{AB}&=\pr{A} \pr{B}&\\
+\pr{AB}&=0.3 \times 0.4&\\
+\pr{AB}&=0.12&
 \end{aligned}$
 
 
 \item $\begin{aligned}
-\Pr{(A+B)}&=\Pr{(A)}+\Pr{(B)}-\Pr{(AB)}&\\
-\Pr{(A+B)}&=0.3+0.4-0.12=0.58&
+\pr{A+B}&=\pr{A}+\pr{B}-\pr{AB}&\\
+\pr{A+B}&=0.3+0.4-0.12=0.58&
 \end{aligned}$
 
 
 \item $\begin{aligned}
-\Pr{(A | B)}=\frac{0.12}{0.40}=0.3
+\pr{A|B}=\frac{0.12}{0.40}=0.3
 \end{aligned}$
 \item $\begin{aligned}
-\Pr{(B | A)}&=\frac{\Pr{(B+A)}}{\Pr{(A)}}&=\frac{0.12}{0.30}&=0.4&
+\pr{B|A}&=\frac{\pr{B+A}}{\pr{A}}&=\frac{0.12}{0.30}&=0.4&
 \end{aligned}$
 \end{enumerate}
 

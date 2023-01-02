@@ -13,6 +13,7 @@
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 \usepackage{listings}
 \usepackage{float}
+\providecommand{\pr}[1]{\ensuremath{\Pr\left(#1\right)}}
 \title{PROBABILITY ASSIGNMENT}
 \author{MOHAMMAD IMRAN}
 \thiswatermark{\centering \put(-50,-105){\includegraphics[scale=0.5]{iith.png}} }
@@ -23,13 +24,13 @@
 
 \section{problem }
 
-Compute $\Pr{(A | B)}$, if $\Pr{(B)}=0.5$ and $\Pr{(AB)}=0.32$ ?
+Compute $\pr{A|B}$, if $\pr{B}=0.5$ and $\pr{AB}=0.32$ ?
 
 \section{solution }
 
 By using property of conditional probability we have,
 \begin{align}
-\Pr{(A | B)}=\frac{\Pr{(AB)}}{\Pr{(B)}}=\frac{0.32}{0.5}=0.64
+\pr{A|B}=\frac{\pr{AB}}{\Pr{B}}=\frac{0.32}{0.5}=0.64
 \end{align}
  \end{document}
 
