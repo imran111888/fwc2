@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  29 DEC 2022 15:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  2 JAN 2023 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,12 +546,12 @@ LaTeX Info: Redefining \nameref on input line 19.
 
 \c@lstlisting=\count331
 
-Overfull \hbox (4.52403pt too wide) in paragraph at lines 47--51
+Overfull \hbox (25.95702pt too wide) in paragraph at lines 47--51
 []$[][]$ 
  []
 
 
-Overfull \hbox (2.66988pt too wide) in paragraph at lines 56--59
+Overfull \hbox (13.38637pt too wide) in paragraph at lines 56--59
 []$[][]$ 
  []
 
@@ -572,7 +572,7 @@ Package rerunfilecheck Info: File `"probability 2".out' has not changed.
 Here is how much of TeX's memory you used:
  12176 strings out of 480204
  191889 string characters out of 5895010
- 519042 words of memory out of 5000000
+ 520042 words of memory out of 5000000
  29963 multiletter control sequences out of 15000+600000
  474938 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
