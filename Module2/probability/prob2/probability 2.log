@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  2 JAN 2023 12:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  2 JAN 2023 15:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,19 +546,19 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 \c@lstlisting=\count331
 
-Overfull \hbox (25.95702pt too wide) in paragraph at lines 48--52
-[]$[][]$ 
+Overfull \hbox (25.95702pt too wide) detected at line 49
+[]
  []
 
 
-Overfull \hbox (13.38637pt too wide) in paragraph at lines 57--60
-[]$[][]$ 
+Overfull \hbox (13.38637pt too wide) detected at line 55
+[]
  []
 
 <iith.png, id=12, 225.84375pt x 225.84375pt>
 File: iith.png Graphic file (type png)
 <use iith.png>
-Package pdftex.def Info: iith.png  used on input line 62.
+Package pdftex.def Info: iith.png  used on input line 58.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -570,9 +570,9 @@ Package rerunfilecheck Info: File `"probability 2".out' has not changed.
 (rerunfilecheck)             Checksum: E70D2CECDD9FAEE1835466594F2B0825;177.
  ) 
 Here is how much of TeX's memory you used:
- 12177 strings out of 480204
- 191891 string characters out of 5895010
- 522054 words of memory out of 5000000
+ 12184 strings out of 480204
+ 191975 string characters out of 5895010
+ 527054 words of memory out of 5000000
  29964 multiletter control sequences out of 15000+600000
  474938 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -582,10 +582,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "probability 2.pdf" (1 page, 60626 bytes).
+Output written on "probability 2.pdf" (1 page, 61153 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 500000)
+ 68 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
  22 words of extra memory for PDF output out of 10000 (max. 10000000)
 
