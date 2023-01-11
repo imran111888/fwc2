@@ -1,3 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}problem }{1}{section.1}%
-\contentsline {section}{\numberline {2}solution }{1}{section.2}%
