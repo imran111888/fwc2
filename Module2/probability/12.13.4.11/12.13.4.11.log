@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  11 JAN 2023 14:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  12 JAN 2023 12:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -547,12 +547,12 @@ LaTeX Info: Redefining \nameref on input line 19.
 \c@lstlisting=\count331
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--36
-
+\OT1/cmr/m/n/12 Consider each trial re-sults in suc-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-[]\OT1/cmr/m/n/12 Therefore,The re-quired prob-a-bil-ity
+Underfull \hbox (badness 10000) in paragraph at lines 30--36
+
  []
 
 
@@ -586,12 +586,12 @@ Package pdftex.def Info: iith.png  used on input line 79.
  <./iith.png>]
 (./12.13.4.11.aux)
 Package rerunfilecheck Info: File `12.13.4.11.out' has not changed.
-(rerunfilecheck)             Checksum: E70D2CECDD9FAEE1835466594F2B0825;177.
+(rerunfilecheck)             Checksum: 24EA8D1E1688D1B911EA2988D4D9D936;177.
  ) 
 Here is how much of TeX's memory you used:
  12172 strings out of 480204
  191798 string characters out of 5895010
- 526025 words of memory out of 5000000
+ 527025 words of memory out of 5000000
  29961 multiletter control sequences out of 15000+600000
  474938 words of font info for 48 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -605,7 +605,7 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
 type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb>
-Output written on 12.13.4.11.pdf (1 page, 99611 bytes).
+Output written on 12.13.4.11.pdf (1 page, 98893 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
