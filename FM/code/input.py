@@ -2,25 +2,32 @@ from scipy.fftpack import fft,fftshift
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.io import wavfile
+import numpy as np
+from scipy.io import wavfile
+import scipy.signal as signal
+import matplotlib.pyplot as plt
 
-# Load WAV file
-sample_rate, audio = wavfile.read('/home/imran/FM TEST/Sound.wav')
 
-# Perform FFT on signal
-fft = np.fft.fft(audio)
+#Fs, audio_data = wavfile.read("/home/imran/FM TEST/Sound.wav")
+sample_rate, audio_data = wavfile.read("/home/imran/FM TEST/Sound.wav")
 
+#perform fft on audio signal
+i = np.fft.fft(audio_data)
+
+#calculate the frequency range
+f_i = np.fft.fftfreq(len(audio_data), d=1/sample_rate)
+
+plt.plot(f_i, np.abs(i))
+plt.xlabel('Frequency (Hz)')
+plt.ylabel('Magnitude')
+plt.title('Input Signal')
+#plt.savefig('/home/imran/FM TEST/input message.pdf')
+plt.show()
 # Calculate power spectral density
-psd = np.abs(fft)**2
+psd = np.abs(i)**2
 
 # Calculate frequency range
 freqs = np.fft.fftfreq(len(psd), 1/sample_rate)
-
-# Plotting input spectrum using power vs freq
-plt.plot(freqs,psd)
-plt.xlabel('Frequency (Hz)')
-plt.ylabel('Power')
-plt.title('Input Signal')
-plt.show()
 
 # Find frequency range with significant power
 mask = psd > 0.1*np.max(psd)
