@@ -1,0 +1,52 @@
+\documentclass[journal,12pt,twocolumn]{article}
+\usepackage[english]{babel}
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{multicol}
+%\usepackage{amsmath}
+\usepackage{graphicx}
+%\usepackage{array}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage{watermark}
+\usepackage{hyperref}
+\usepackage{fancybox}
+%\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{mdframed}
+
+\title{FM}
+\author{Under guidance of Dr.GVV SHARMA}
+\thiswatermark{\centering \put(-50,-105){\includegraphics[scale=0.5]{iith.png}}}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Project Abstract}
+Calculation of Bandwidth of Audio Signal
+\section{Loading the Audio File}
+We begin by loading the audio file using the wavfile.read() function from the scipy.io.wavfile module. This returns the sampling frequency and the audio data as a numpy array.
+\section{Computing the Fourier Transform}
+the Fourier transform of the audio signal using the numpy.fft.fft() function. This transforms the audio data from the time domain to the frequency domain.
+\section{Calculating the Power Spectral Density}
+The power spectral density (PSD) is a measure of the power of a signal as a function of frequency. We can calculate the PSD from the Fourier transform by taking the magnitude and squared magnitude of the transform.
+\section{Finding the Frequency Range with Significant Power}
+To calculate the bandwidth of the signal,  find the range of frequencies with significant power. We can do this by setting a threshold on the PSD and identifying the frequencies that exceed this threshold.set the threshold to 0.1 times the maximum PSD value.
+\section{Calculating the Bandwidth}
+Finally, we calculate the bandwidth as the difference between the maximum and minimum frequencies in the range with significant power.we obtain the bandwidth of the audio as 2 khz
+\section{code link}
+Python code to calculate the bandwidth of an audio signal.\\
+
+
+\begin{mdframed}
+https://github.com/imran111888/fwc2\\
+/blob/main/FM/code/input.py
+
+\end{mdframed}
+just click on input.py \\
+
+\fbox{\parbox{3cm}{\href{https://github.com/imran111888/fwc2/blob/main/FM/code/input.py}{input.py}}}
+
+
+
+\end{document}

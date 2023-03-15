@@ -1,0 +1,8 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Project Abstract}{1}{section.1}%
+\contentsline {section}{\numberline {2}Loading the Audio File}{1}{section.2}%
+\contentsline {section}{\numberline {3}Computing the Fourier Transform}{1}{section.3}%
+\contentsline {section}{\numberline {4}Calculating the Power Spectral Density}{1}{section.4}%
+\contentsline {section}{\numberline {5}Finding the Frequency Range with Significant Power}{1}{section.5}%
+\contentsline {section}{\numberline {6}Calculating the Bandwidth}{2}{section.6}%
+\contentsline {section}{\numberline {7}code link}{2}{section.7}%

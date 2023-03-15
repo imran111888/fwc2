@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  13 MAR 2023 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.9.14)  15 MAR 2023 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**fm.tex
-(./fm.tex
+**fm1.tex
+(./fm1.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -372,40 +372,161 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks26
 \@floatcapt=\box100
 )
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-01-21 L3 programming layer (loader) 
+
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box101
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count312
+)
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+)
+\c@abspage=\count313
+Package zref Info: New property: abspage on input line 66.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+)
+\mdf@templength=\skip52
+\c@mdf@globalstyle@cnt=\count314
+\mdf@skipabove@length=\skip53
+\mdf@skipbelow@length=\skip54
+\mdf@leftmargin@length=\skip55
+\mdf@rightmargin@length=\skip56
+\mdf@innerleftmargin@length=\skip57
+\mdf@innerrightmargin@length=\skip58
+\mdf@innertopmargin@length=\skip59
+\mdf@innerbottommargin@length=\skip60
+\mdf@splittopskip@length=\skip61
+\mdf@splitbottomskip@length=\skip62
+\mdf@outermargin@length=\skip63
+\mdf@innermargin@length=\skip64
+\mdf@linewidth@length=\skip65
+\mdf@innerlinewidth@length=\skip66
+\mdf@middlelinewidth@length=\skip67
+\mdf@outerlinewidth@length=\skip68
+\mdf@roundcorner@length=\skip69
+\mdf@footenotedistance@length=\skip70
+\mdf@userdefinedwidth@length=\skip71
+\mdf@needspace@length=\skip72
+\mdf@frametitleaboveskip@length=\skip73
+\mdf@frametitlebelowskip@length=\skip74
+\mdf@frametitlerulewidth@length=\skip75
+\mdf@frametitleleftmargin@length=\skip76
+\mdf@frametitlerightmargin@length=\skip77
+\mdf@shadowsize@length=\skip78
+\mdf@extratopheight@length=\skip79
+\mdf@subtitleabovelinewidth@length=\skip80
+\mdf@subtitlebelowlinewidth@length=\skip81
+\mdf@subtitleaboveskip@length=\skip82
+\mdf@subtitlebelowskip@length=\skip83
+\mdf@subtitleinneraboveskip@length=\skip84
+\mdf@subtitleinnerbelowskip@length=\skip85
+\mdf@subsubtitleabovelinewidth@length=\skip86
+\mdf@subsubtitlebelowlinewidth@length=\skip87
+\mdf@subsubtitleaboveskip@length=\skip88
+\mdf@subsubtitlebelowskip@length=\skip89
+\mdf@subsubtitleinneraboveskip@length=\skip90
+\mdf@subsubtitleinnerbelowskip@length=\skip91
+
+(/usr/share/texlive/texmf-dist/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box102
+\mdf@footnotebox=\box103
+\mdf@splitbox@one=\box104
+\mdf@splitbox@two=\box105
+\mdf@splitbox@save=\box106
+\mdfsplitboxwidth=\skip92
+\mdfsplitboxtotalwidth=\skip93
+\mdfsplitboxheight=\skip94
+\mdfsplitboxdepth=\skip95
+\mdfsplitboxtotalheight=\skip96
+\mdfframetitleboxwidth=\skip97
+\mdfframetitleboxtotalwidth=\skip98
+\mdfframetitleboxheight=\skip99
+\mdfframetitleboxdepth=\skip100
+\mdfframetitleboxtotalheight=\skip101
+\mdffootnoteboxwidth=\skip102
+\mdffootnoteboxtotalwidth=\skip103
+\mdffootnoteboxheight=\skip104
+\mdffootnoteboxdepth=\skip105
+\mdffootnoteboxtotalheight=\skip106
+\mdftotallinewidth=\skip107
+\mdfboundingboxwidth=\skip108
+\mdfboundingboxtotalwidth=\skip109
+\mdfboundingboxheight=\skip110
+\mdfboundingboxdepth=\skip111
+\mdfboundingboxtotalheight=\skip112
+\mdf@freevspace@length=\skip113
+\mdf@horizontalwidthofbox@length=\skip114
+\mdf@verticalmarginwhole@length=\skip115
+\mdf@horizontalspaceofbox=\skip116
+\mdfsubtitleheight=\skip117
+\mdfsubsubtitleheight=\skip118
+\c@mdfcountframes=\count315
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count316
+\c@mdf@env@i=\count317
+\c@mdf@env@ii=\count318
+\c@mdf@zref@counter=\count319
+Package zref Info: New property: mdf@pagevalue on input line 895.
 )
 
 LaTeX Warning: Unused global option(s):
     [journal].
 
-(./fm.aux
+(./fm1.aux)
+\openout1 = `fm1.aux'.
 
-LaTeX Warning: Label `fig:my_label' multiply defined.
-
-)
-\openout1 = `fm.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -443,16 +564,16 @@ LaTeX Font Info:    ... okay on input line 21.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count312
+\scratchcounter=\count320
 \scratchdimen=\dimen168
-\scratchbox=\box102
-\nofMPsegments=\count313
-\nofMParguments=\count314
+\scratchbox=\box107
+\nofMPsegments=\count321
+\nofMParguments=\count322
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count315
+\MPscratchCnt=\count323
 \MPscratchDim=\dimen169
-\MPnumerator=\count316
-\makeMPintoPDFobject=\count317
+\MPnumerator=\count324
+\makeMPintoPDFobject=\count325
 \everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -463,7 +584,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 21.
+Package hyperref Info: Link coloring OFF on input line 22.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -474,110 +595,101 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count318
+\c@section@level=\count326
 )
-LaTeX Info: Redefining \ref on input line 21.
-LaTeX Info: Redefining \pageref on input line 21.
-LaTeX Info: Redefining \nameref on input line 21.
+LaTeX Info: Redefining \ref on input line 22.
+LaTeX Info: Redefining \pageref on input line 22.
+LaTeX Info: Redefining \nameref on input line 22.
 
-(./fm.out) (./fm.out)
+(./fm1.out) (./fm1.out)
 \@outlinefile=\write4
-\openout4 = `fm.out'.
+\openout4 = `fm1.out'.
 
-\c@lstlisting=\count319
+\c@lstlisting=\count327
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 23.
+(Font)              <14.4> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
- (./fm.toc)
+(Font)              <7> on input line 24.
+ (./fm1.toc)
 \tf@toc=\write5
-\openout5 = `fm.toc'.
+\openout5 = `fm1.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]\OT1/cmr/bx/n/17.28 Loading the Au-dio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
 []\OT1/cmr/bx/n/17.28 Computing the
  []
 
-<fft.jpeg, id=39, 269.005pt x 188.705pt>
-File: fft.jpeg Graphic file (type jpg)
-<use fft.jpeg>
-Package pdftex.def Info: fft.jpeg  used on input line 58.
-(pdftex.def)             Requested size: 216.78923pt x 152.07564pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 2035) has occurred while \output is active []
 
-<input.pdf, id=40, 462.52798pt x 346.89601pt>
-File: input.pdf Graphic file (type pdf)
-<use input.pdf>
-Package pdftex.def Info: input.pdf  used on input line 67.
-(pdftex.def)             Requested size: 216.78923pt x 162.59122pt.
-<iith.png, id=41, 225.84375pt x 225.84375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]\OT1/cmr/bx/n/17.28 Finding the Fre-
+ []
+
+
+Underfull \hbox (badness 5008) in paragraph at lines 33--33
+\OT1/cmr/bx/n/17.28 quency Range with
+ []
+
+
+Underfull \vbox (badness 6236) has occurred while \output is active []
+
+<iith.png, id=39, 225.84375pt x 225.84375pt>
 File: iith.png Graphic file (type png)
 <use iith.png>
-Package pdftex.def Info: iith.png  used on input line 71.
+Package pdftex.def Info: iith.png  used on input line 37.
 (pdftex.def)             Requested size: 112.92159pt x 112.92159pt.
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./iith.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+
+Overfull \hbox (2.51842pt too wide) in paragraph at lines 42--44
+[]\OT1/cmr/m/n/12 https://github.com/imran111888/fwc2 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 91.
+(Font)              <12> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 91.
+(Font)              <8> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 91.
- [2pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.94 
-      <./fft.jpeg> <./input.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 100--100
-[]\OT1/cmr/bx/n/17.28 Bandwidth Cal-cu-la-
- []
+(Font)              <6> on input line 48.
+[2
 
-
-Underfull \hbox (badness 1163) in paragraph at lines 101--102
-\OT1/cmr/m/n/12 We are cal-cu-lat-ing band-width by first
- []
-
-
-Underfull \hbox (badness 3417) in paragraph at lines 107--108
-[]\OT1/cmr/m/n/12 We first load the WAV file us-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-\OT1/cmr/m/n/12 The be-low python code com-putes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
-\OT1/cmr/m/n/12 band-width of the in-put au-dio file:
- []
-
-[3] (./fm.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `fm.out' has not changed.
-(rerunfilecheck)             Checksum: 45C7938B75C35DA4C9ED4F7B72C48C1C;931.
+] (./fm1.aux)
+Package rerunfilecheck Info: File `fm1.out' has not changed.
+(rerunfilecheck)             Checksum: 0F38C85224FCE90C551737F77292C075;1316.
  ) 
 Here is how much of TeX's memory you used:
- 11607 strings out of 480204
- 183482 string characters out of 5895010
- 510273 words of memory out of 5000000
- 29397 multiletter control sequences out of 15000+600000
+ 12852 strings out of 480204
+ 207401 string characters out of 5895010
+ 543863 words of memory out of 5000000
+ 30624 multiletter control sequences out of 15000+600000
  474120 words of font info for 44 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 60i,13n,63p,520b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,13n,77p,445b,341s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on fm.pdf (3 pages, 140544 bytes).
+Output written on fm1.pdf (2 pages, 51291 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 77 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

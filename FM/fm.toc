@@ -1,8 +1,0 @@
-\babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Project Abstract}{1}{section.1}%
-\contentsline {section}{\numberline {2}Audio Signal}{1}{section.2}%
-\contentsline {section}{\numberline {3}Loading the Audio file}{1}{section.3}%
-\contentsline {section}{\numberline {4}Computing the Fourier Transform}{1}{section.4}%
-\contentsline {section}{\numberline {5}Bandwidth}{2}{section.5}%
-\contentsline {section}{\numberline {6}Bandwidth Calculation}{3}{section.6}%
-\contentsline {section}{\numberline {7}Code Link}{3}{section.7}%
